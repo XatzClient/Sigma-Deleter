@@ -674,6 +674,7 @@ Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>. */
 
 package me.xatzdevelopments.sigmabyemom;
+
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -693,7 +694,7 @@ public class Frame extends JFrame implements ActionListener {
 	
 	
 	Frame() throws IOException{
-		this.setTitle("Sigma deleter");
+		this.setTitle("Sigma deleter v1.2");
 		this.setSize(600,275);
 		this.setVisible(true);
 		this.setResizable(false);
@@ -718,6 +719,7 @@ public class Frame extends JFrame implements ActionListener {
 				File sigmaDataDir = new File(FileUtils.getUserDirectoryPath() + "/AppData/Roaming/.minecraft/sigma");
 		        File sigmaVerDir = new File(FileUtils.getUserDirectoryPath() + "/AppData/Roaming/.minecraft/versions/Sigma");
 		        File sigmaNewVerDir = new File(FileUtils.getUserDirectoryPath() + "/AppData/Roaming/.minecraft/versions/Sigma5");
+		        File jelloprelauncherthingy = new File(FileUtils.getUserDirectoryPath() + "/AppData/Roaming/.minecraft/SigmaJelloPrelauncher.jar");
 		        boolean sigmaDataExists = sigmaDataDir.exists();
 		        boolean sigmaVersionsExist = sigmaVerDir.exists();
 		        @SuppressWarnings("unused")
@@ -729,6 +731,7 @@ public class Frame extends JFrame implements ActionListener {
 		            FileUtils.forceDelete(sigmaDataDir);
 		            FileUtils.forceDelete(sigmaVerDir);
 		            FileUtils.forceDelete(sigmaNewVerDir);
+		            FileUtils.forceDelete(jelloprelauncherthingy);
 		        }
 		          catch(IOException ex) {
 		          }
