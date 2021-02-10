@@ -1,5 +1,5 @@
 /*  Sigma deleter, a Simple program to get rid os a pasted block game cheat
-    Copyright (C) 2021  Xatz Developments (also known as Fardmen Industries)
+    Sigma Deleter Copyright (C) 2021  Xatz Developments (also known as Fardmen Industries)
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
