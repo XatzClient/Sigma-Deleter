@@ -8,6 +8,9 @@ Delete Omikrons pasted monero miner.
 By Napoleon (GreatZardasht) and HeyaGlitz (ItzRiotz)
 
 
+
+Want a .bat version of sigma deleter? Check out the one made by heyOwl https://github.com/heyOwl/SigmaDelete
+
 # To Do
 Make it delete on linux   
 Make it delete on Mac
