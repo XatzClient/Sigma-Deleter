@@ -6,3 +6,8 @@ Delete Omikrons pasted monero miner.
 
 
 By Napoleon (GreatZardasht) and HeyaGlitz (ItzRiotz)
+
+
+# To Do
+Make it work on linux
+Make it work on Mac
