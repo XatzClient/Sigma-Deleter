@@ -35,7 +35,7 @@ public class Frame extends JFrame implements ActionListener {
 	
 	
 	Frame() throws IOException{
-		this.setTitle("Sigma deleter v1.2");
+		this.setTitle("Sigma deleter v1.3");
 		this.setSize(600,275);
 		this.setVisible(true);
 		this.setResizable(false);
