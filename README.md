@@ -12,5 +12,4 @@ By Napoleon (GreatZardasht) and HeyaGlitz (ItzRiotz), With contributions from He
 Want a .bat version of sigma deleter? Check out the one made by heyOwl https://github.com/heyOwl/SigmaDelete
 
 # To Do
-Make it delete on linux   
-Make it delete on Mac
+Nothing for now, maybe you've got a suggestion? If so, feel free to make an issue with your suggestion.
