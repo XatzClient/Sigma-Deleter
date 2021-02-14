@@ -5,7 +5,7 @@
 Delete Omikrons pasted monero miner.
 
 
-By Napoleon (GreatZardasht) and HeyaGlitz (ItzRiotz)
+By Napoleon (GreatZardasht) and HeyaGlitz (ItzRiotz), With contributions from Henry0w
 
 
 
