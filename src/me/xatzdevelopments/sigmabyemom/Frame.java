@@ -35,7 +35,7 @@ public class Frame extends JFrame implements ActionListener {
 	
 	
 	Frame() throws IOException{
-		this.setTitle("Sigma deleter v1.2");
+		this.setTitle("Sigma deleter v1.3");
 		this.setSize(600,275);
 		this.setVisible(true);
 		this.setResizable(false);
@@ -56,29 +56,42 @@ public class Frame extends JFrame implements ActionListener {
 		this.add(button);
 	}
 	public void actionPerformed(ActionEvent e) {
-		if(e.getSource()==button) {
-				File sigmaDataDir = new File(FileUtils.getUserDirectoryPath() + "/AppData/Roaming/.minecraft/sigma");
-		        File sigmaVerDir = new File(FileUtils.getUserDirectoryPath() + "/AppData/Roaming/.minecraft/versions/Sigma");
-		        File sigmaNewVerDir = new File(FileUtils.getUserDirectoryPath() + "/AppData/Roaming/.minecraft/versions/Sigma5");
-		        File jelloprelauncherthingy = new File(FileUtils.getUserDirectoryPath() + "/AppData/Roaming/.minecraft/SigmaJelloPrelauncher.jar");
-		        boolean sigmaDataExists = sigmaDataDir.exists();
-		        boolean sigmaVersionsExist = sigmaVerDir.exists();
-		        @SuppressWarnings("unused")
-				boolean sigmaNewVersionsExist = sigmaNewVerDir.exists();
-		        if(!sigmaDataExists && !sigmaVersionsExist) {
-		        	JOptionPane.showMessageDialog(this, "Sigma doesn't exist, you're lucky.","Error",JOptionPane.ERROR_MESSAGE);
-		        }else {
-		        try {
-		            FileUtils.forceDelete(sigmaDataDir);
-		            FileUtils.forceDelete(sigmaVerDir);
-		            FileUtils.forceDelete(sigmaNewVerDir);
-		            FileUtils.forceDelete(jelloprelauncherthingy);
-		        }
-		          catch(IOException ex) {
-		          }
-		        JOptionPane.showMessageDialog(this, "Sigma is gone, your CPU will thank you!"); // it sure will
-		     }
+		if(e.getSource() == button) {
+			String prefix = "/";
+			if (System.getProperty("os.name").toLowerCase().contains("win")) {
+				prefix += "AppData/Roaming/.";
+			} else if (System.getProperty("os.name").toLowerCase().contains("mac")) {
+				prefix += "Library/Application Support/";
+			}
+			else prefix += ".";
+
+			File sigmaDataDir = new File(FileUtils.getUserDirectoryPath() + prefix + "minecraft/sigma");
+			File sigmaFiveDataDir = new File(FileUtils.getUserDirectoryPath() + prefix + "minecraft/sigma5");
+			File jelloDataDir = new File(FileUtils.getUserDirectoryPath() + prefix + "minecraft/jello");
+			File sigmaCapitalizedDataDir = new File(FileUtils.getUserDirectoryPath() + prefix + "minecraft/Sigma");
+			File sigmaVerDir = new File(FileUtils.getUserDirectoryPath() + prefix + "minecraft/versions/Sigma");
+			File sigmaNewVerDir = new File(FileUtils.getUserDirectoryPath() + prefix + "minecraft/versions/Sigma5");
+			File jelloprelauncherthingy = new File(FileUtils.getUserDirectoryPath() + prefix + "minecraft/SigmaJelloPrelauncher.jar");
+			if (!sigmaDataDir.exists() && !sigmaVerDir.exists() && !sigmaCapitalizedDataDir.exists()) {
+				JOptionPane.showMessageDialog(this, "Sigma doesn't exist, you're lucky.","Error",JOptionPane.ERROR_MESSAGE);
+				return;
+			}
+			del(sigmaCapitalizedDataDir);
+			del(sigmaDataDir);
+			del(sigmaFiveDataDir);
+			del(sigmaNewVerDir);
+			del(sigmaVerDir);
+			del(jelloDataDir);
+			del(jelloprelauncherthingy);
+
+			JOptionPane.showMessageDialog(this, "Sigma is gone, your CPU will thank you!"); // it sure will
+
 		}
+	}
+	private void del(File file) {
+		try {
+			FileUtils.forceDelete(file);
+		}catch (IOException ignored) {}
 	}
 }
 
