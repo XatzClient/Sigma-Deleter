@@ -2,7 +2,7 @@
 [![GitHub All Releases](https://img.shields.io/github/downloads/XatzClient/Sigma-Deleter/total.svg)](https://github.com/XatzClient/Sigma-Deleter/releases)
 Delete Omikrons pasted monero miner.        
 By Napoleon (GreatZardasht) and HeyaGlitz (ItzRiotz), With contributions from Henry0w
--  Our Discord: https://discord.gg/SGwV7NDqHM      
+-  Our Discord: https://discord.gg/E6zYK6Re5F    
 
 # To Do
 Nothing for now, maybe you've got a suggestion? If so, feel free to make an issue with your suggestion.
