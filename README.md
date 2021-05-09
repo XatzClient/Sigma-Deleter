@@ -12,7 +12,7 @@ I can't believe I have to explain this,
 
 ----- Additional Help -----
 
-- If you got java, but jar wont open the GUI for sigma deleter, use this https://www.heise.de/software/download/jarfix/41657 If you are on linux and you have issues, figure it out yourself Nerd (or ask ItzRiotz for help as he also uses Linux)
+- If you got java, but jar wont open the GUI for sigma deleter, use this https://www.heise.de/software/download/jarfix/41657 If you are on linux and you have issues, then congrats! You finally have the best type of OS (only use Arch and Arch based distro's tho, they are just the best).
 
 # To Do
 Nothing for now, maybe you've got a suggestion? If so, feel free to make an issue with your suggestion.
