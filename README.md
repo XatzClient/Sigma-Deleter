@@ -1,3 +1,14 @@
+# ❗❗❗ I M P O R T A N T ❗❗❗
+We've seen that a lot of people have been calling this a virus, so we've decided to make a video thoroughly debunking it with some solid proof (video coming soon)
+SHA256 (v1.3) | MD5 (v1.3)
+------------ | -------------
+`35AD4DAFFC1903FC7994298ED55BD989A8E9016AF701FBB48E0460CF95622AB0` |`7549C83A32564CCB5678B7ACA89A03BB`
+
+If you're soo scared it's a virus, these are the official checksums, so GO CHECK THE SUMS YOURSELF!
+
+Powershell: `Get-FileHash .\Sigma-Deleter_v1.3.jar -Algorithm MD5`
+
+
 # Sigma-Deleter
 [![GitHub All Releases](https://img.shields.io/github/downloads/XatzClient/Sigma-Deleter/total.svg)](https://github.com/XatzClient/Sigma-Deleter/releases)
 Delete Omikrons pasted monero miner.        
