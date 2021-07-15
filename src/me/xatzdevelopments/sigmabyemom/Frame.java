@@ -80,7 +80,7 @@ public class Frame extends JFrame implements ActionListener {
             File sigmaNewVerDir = new File(FileUtils.getUserDirectoryPath() + prefix + "minecraft/versions/Sigma5");
             File jelloprelauncherthingy = new File(FileUtils.getUserDirectoryPath() + prefix + "minecraft/SigmaJelloPrelauncher.jar");
             if (!jelloprelauncherthingy.exists() && !sigmaCapitalizedDataDir.exists()) {
-                JOptionPane.showMessageDialog(this, "Sigma doesn't exist, you're lucky.","Error",JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(this, "Sigma doesn't exist, you're unique and lucky.","Error",JOptionPane.ERROR_MESSAGE);
                 this.dispatchEvent(new WindowEvent(this, WindowEvent.WINDOW_CLOSING));
                 return;
             }
@@ -92,7 +92,7 @@ public class Frame extends JFrame implements ActionListener {
             del(jelloDataDir);
             del(jelloprelauncherthingy);
 
-            JOptionPane.showMessageDialog(this, "Sigma is gone, your CPU will thank you!"); // it sure will
+            JOptionPane.showMessageDialog(this, "Sigma is now gone, your CPU, GPU, and HDD will thank you!"); // it sure will
             this.dispatchEvent(new WindowEvent(this, WindowEvent.WINDOW_CLOSING));
 
         }
