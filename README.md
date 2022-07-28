@@ -1,5 +1,5 @@
 # ❗❗❗ I M P O R T A N T ❗❗❗
-We've seen that a lot of people have been calling this a virus, so we've decided to make a video thoroughly debunking it with some solid proof
+We've seen that a lot of people have been calling this a virus (except for @rage_robin on tiktok), so we've decided to make a video thoroughly debunking it with some solid proof
 
 Video: https://www.youtube.com/watch?v=JvoaeG5GZEg
 SHA256 (v1.3) | MD5 (v1.3)
