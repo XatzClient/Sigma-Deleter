@@ -34,7 +34,7 @@ I can't believe I have to explain this,
 
 ----- Additional Help -----
 
-- If you got java, but jar wont open the GUI for sigma deleter, use this https://www.heise.de/software/download/jarfix/41657 If you are on linux and you have issues, then congrats! You finally have the best type of OS (only use Arch and Arch based distro's tho, they are just the best). - NaakteMolrattenZijnCool 
+- If you got java, but jar wont open the GUI for sigma deleter, use this https://www.heise.de/software/download/jarfix/41657 If you are on linux and you have issues, then congrats! You finally have the best type of OS (only use Arch and Arch based distro's tho, they are just the best). - Naakte
 - If you have linux and have issues with opening the jar, cd into the folder that contains the jar and type `java -jar Sigma-Deleter_v1.3.jar` or whatever the jar you downloaded was called, if you have more issues, ~~go fuck yourself Nerd~~ figure it out yourself.. ------ Napoleon
 
 # CopyRight
